@@ -2,37 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Pizza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Pizza</title>
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-          
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Locations & Hours  <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                            <a class="nav-link" href="#">Order Online <span class="sr-only">(current)</span></a>
-                        </li>
-                          </li>
-                    <!-- <li class="nav-item dropdown">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Locations & Hours <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Order Online <span class="sr-only">(current)</span></a>
+        </li>
+        </li>
+        <!-- <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                       <div class="dropdown-menu" aria-labelledby="dropdown01">
                         <a class="dropdown-item" href="#">Action</a>
@@ -40,22 +41,53 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                       </div>
                     </li> -->
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
-          
-              <main role="main" class="container-fluid">
-          
-                <div class="starter-template">
-                  <h1><span>The Pizza Shop</span></h1>
-                  <!-- <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p> -->
-                </div>
-          
-              </main>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main role="main" class="container-fluid">
+
+    <div class="starter-template">
+      <h1><span>The Pizza Shop</span></h1>
+      <!-- <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p> -->
+    </div>
+
+  </main>
+  <div class="container">
+    <h1>Pizza Texture</h1>
+
+
+    <div class="form-group">
+      <label for="size1" class="col-sm-2 control-label">Size:</label>
+      <div class="col-sm-2">
+        <select class="form-control selcls" id="size1">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="kind1" class="col-sm-2 control-label">Kind of Crust:</label>
+      <div class="col-sm-2">
+        <select class="form-control selcls" id="kind1">
+          <option>Crispy</option>
+          <option>Stuffed</option>
+          <option>Glutten-free</option>
+        </select>
+
+      </div>
+    </div>
+
+  </div>
+
+
 
 
 </body>

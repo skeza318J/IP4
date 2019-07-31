@@ -1,8 +1,20 @@
-/* #header{
+body {
+    padding-top: 5rem;
+  }
+  .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
     background-image: url("../img/cheese-delicious-dinner-2232.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
-
-
+    padding: 300px 100px;
+    text-align: center;
+  }
+  .starter-template, h1{
+      font-size: 90px;
+      
+  }
 
 
 
